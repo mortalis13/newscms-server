@@ -1,0 +1,104 @@
+
+#profile input, textarea {
+  padding: 5px;
+  margin: 0;
+  line-height: 1.2em;
+  background: #fff; 
+  border: 2px solid #666;
+}
+
+#profile #delete{
+  margin: 10px auto 0;
+  text-align: center;
+  /*border:1px solid black;*/
+}
+#profile #delete a{
+  color:black;
+  width:120px;
+  font-weight: bold;
+  font-style:italic;
+  background: -moz-linear-gradient(top , #e56262 , #fff 60%);
+  font-size:0.9em;
+  display:inline-block;
+  padding: 2px 0px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .2);
+}
+#profile #delete a:hover,#profile #delete a:active{
+  cursor:pointer;
+  background: -moz-linear-gradient(top , #ef2e2e , #fff 60%);
+}
+
+#profile .actions .profileButtons input{
+  width:80px;
+  display: inline;
+  padding: 4px 0;
+  margin: 2px 7px;
+  color: #000;
+  font-weight: bold;
+  font-style:italic;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background: #eee;
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .1);
+}
+#profile .actions .profileButtons{
+  margin: 0;
+  text-align: center;
+}
+#profile .actions .profileButtons input:hover,.actions .profileButtons input:active{
+  background: -moz-linear-gradient(bottom , #fff 60%, #ccc);
+  cursor: pointer;
+}
+
+#profile{
+  width:350px;
+}
+#profile label{
+  float:left;
+  width:45%;
+  text-align: left;
+  font-weight: bold;
+  font-size:0.95em;
+}
+
+#profile .property .title,.actions .title{
+  padding:15px 0 15px;
+  height:0;
+}
+#profile .property .content{
+  width:300px;
+  margin:10px auto;
+  /*border:1px solid black;*/
+}
+#profile .property .content input{
+  width:140px;
+  /*height:15px;*/
+  font-size:0.8em;
+  line-height: 1.2em;
+}
+
+#profile .property .line,.actions .line,.endLine{
+  width:100%;
+  text-align: center;
+  border-bottom:1px solid black;
+  line-height:0.1em;
+}
+#profile .property .line span{
+  background:#fff;
+  padding:0 6px;
+  font-style: italic;
+}
+
+#profile .endLine{
+  padding:0px 0 15px;
+  height:0;
+}
+
+#profileLink{
+  color:black;
+}
+#profileLink:hover{
+  text-decoration: underline;
+}

@@ -1,0 +1,4 @@
+AddDefaultCharset utf-8
+
+Options -Indexes
+#IndexIgnore *.jpg

@@ -1,0 +1,33 @@
+
+/* homepage.php (user) */
+
+.tNewsUser{
+  width: 75%;
+}
+.tNewsUser td{
+  padding:10px 5px;
+  border-bottom:1px solid black;
+}
+.tNewsUser tr:hover{
+  background: #eee;
+  cursor:pointer;
+}
+.tNewsUser a{
+  font-size:1.1em;
+  font-weight:bold;
+  text-shadow: rgba(0, 0, 0, .3) 2px 2px .8em ;
+}
+
+.tNewsUser #date{
+  width:20%;
+}
+
+#userNewsDate{
+  font-size:.8em;
+  font-family:"Times New Roman";
+}
+#noNewsDivUser{
+  padding:12px 0px;
+  font-size: 1.2em;
+  font-weight: bold;
+}

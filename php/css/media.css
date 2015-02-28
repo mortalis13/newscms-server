@@ -1,0 +1,188 @@
+
+@media(max-width: 991px){
+  body{
+    font-size:14px;
+  }
+  .tPages,.tNewsUser,.tNewsArchiveUser,.tNews,.newsNavigation{
+    width:100%;
+  }
+  .tNews #date{
+    width:30%;
+  }
+  .tNewsUser #date{
+    width:25%;
+  }
+  .tNewsArchiveUser a{
+    text-shadow: none;
+    font-weight: bold;
+  }
+  .newsNavigation a{
+    font-weight: bold;
+  }
+  .editNewsForm{
+    width:100%;
+  }
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+  .tPages,.tNewsUser,.tNewsArchiveUser,.tNews,.newsNavigation{
+    width:90%;
+  }
+  #loginForm, #regForm {
+      width: 60%;
+  }
+
+  .editNewsForm{
+    width:95%;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+  .container{
+    border-radius: 10px;
+  }
+  #loginForm, #regForm {
+      width: 70%;
+  }
+}
+
+@media (max-width: 767px){
+  .container{
+    margin:0;
+    border-radius: 0;
+  }
+  .newsNavigation span span{
+    display: none;
+  }
+  #loginForm, #regForm {
+      width: 80%;
+  }
+  .inputForms .control-label{
+    text-align: right;
+  }
+}
+
+@media (max-width: 730px){
+  .inputForms *[class*=col]{
+    float:none;
+    text-align: center;
+    display: block;
+  }
+  .inputForms .form-group{
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .inputForms .control-label{
+    margin:0 auto 5px;
+    padding:0;
+    width:40%;
+  }
+  .inputForms .control-input{
+    margin:auto 0 auto auto;
+    width:100%;
+  }
+  .inputForms .form-control{
+    margin:0 auto;
+    width:90%;
+  }
+  .inputForms .redirectBox{
+    margin:0;
+  }
+
+  #loginErrorMessage {
+    width:95%;
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 565px){
+  .headerLogo{
+    display: none;
+  }
+  .container{
+    padding:5px;
+  }
+  .tPages .total{
+    float:none;
+    clear:left;
+    margin-top:5px;
+  }
+
+  .newsNavigation{
+    width:30%;
+    margin:0 auto;
+  }
+  .newsNavigation div[class*=col]{
+    padding:0;
+  }
+  .newsNavigation .prev{
+    text-align: right;
+  }
+  .newsNavigation .next{
+    text-align: left;
+  }
+  .newsNavigation span{
+    display: none;
+  }
+
+  #loginForm, #regForm {
+    width: 100%;
+  }
+  .inputForms .buttons input{
+    width:30%;
+    padding: 0 5px;
+  }
+  .editNewsForm .formHeader{
+    font-size:1em;
+  }
+
+  .responsive-image{
+    max-width: 100% !important;
+    height: auto;
+  }
+}
+
+@media (max-width: 420px){
+  #regForm.inputForms .form-control{
+    width:50%;
+  }
+  .inputForms .buttons input{
+    width:40%;
+  }
+
+  .editNewsForm .formHeader{
+    text-align: left;
+    padding-left: 10px;
+  }
+  .statusMessage, .errorMessage{
+    margin-left:40px;
+  }
+}
+
+/*table*/
+
+.table-responsive-custom {
+  min-height: .01%;
+  overflow-x: auto;
+}
+@media screen and (max-width: 767px) {
+  .table-responsive-custom {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+  .table-responsive-custom > .table {
+    margin-bottom: 0;
+  }
+  .table-responsive-custom > .table > thead > tr > th,
+  .table-responsive-custom > .table > tbody > tr > th,
+  .table-responsive-custom > .table > tfoot > tr > th,
+  .table-responsive-custom > .table > thead > tr > td,
+  .table-responsive-custom > .table > tbody > tr > td,
+  .table-responsive-custom > .table > tfoot > tr > td {
+    white-space: nowrap;
+  }
+}

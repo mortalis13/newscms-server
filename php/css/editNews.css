@@ -1,0 +1,124 @@
+
+/* editNews.php */
+
+#navDivNewNews{
+  height:10px;
+}
+#newsNavigationAdmin{
+  margin-top:20px;
+  margin-left:45px;
+}
+
+.editNewsForm{
+  padding: 20px 0 40px 0px;
+  width: 80%;
+}
+.editNewsForm div[class*=col]{
+  padding-left: 0;
+}
+.lEditNews{
+  width: 18%;
+  font-weight: bold;
+}
+.formHeader{
+  position:relative;
+  margin-bottom: 25px;
+  font-size:1.2em;
+}
+#editNewsImage{
+  position:relative;
+  max-height:400px;
+  max-width:400px;
+}
+#editNewsImage:hover{
+  cursor: pointer;
+  box-shadow:1px 1px 5px rgba(0,0,0,0.7);
+}
+#editNewsContent{
+  height: 30em;
+}
+#editNewsTitle{
+  font-size:1em;
+}
+#editNewsTitle, #editNewsContent{
+  background: #fff;
+}
+#newsDate{
+  display: inline-block;
+  text-decoration: underline;
+  margin:0 auto;
+}
+
+#previewNewsAdmin{
+  position: absolute;
+  top:0;
+  right:0;
+
+  width:30px;
+  height:30px;
+  margin:0px 10px 0px 0px;
+  border:2px solid #999;
+  border-radius: 5px;
+  background: url(../images/system/view.png) no-repeat;
+  background-size: cover;
+}
+#previewNewsAdmin:hover{
+  cursor:pointer;
+  border:2px ridge #ddd;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+  background: url(../images/system/view_light.png) no-repeat;
+  background-size: cover;
+}
+#previewNewsAdmin:active{
+  box-shadow: 1px 1px 5px rgba(0,0,0,0);
+}
+
+#textMenuDiv{
+  margin-top:10px;
+  margin-left:-10px;
+  border:1px solid black;
+}
+#textMenu{
+  width:635px;
+  height:40px;
+  margin-left:140px;
+  margin-top:13px;
+  border:2px solid #777;
+  border-radius: 5px;
+}
+#textMenu img{
+  margin-top:4px;
+  margin-left:5px;
+  border:1px solid #999;
+  border-radius: 5px;
+}
+#textMenu img:first-child{
+  margin-left:10px;
+}
+#textMenu img:hover{
+  cursor: pointer;
+}
+
+#viewNewsAdmin{
+  position: absolute;
+  top:0;
+  right:35px;
+
+  width:30px;
+  height:30px;
+  margin:0px 10px 0px -80px;
+  border:2px solid #999;
+  border-radius: 5px;
+  background: url(../images/system/view.png) no-repeat;
+  background-size: cover;
+}
+#viewNewsAdmin:hover{
+  cursor:pointer;
+  border:2px ridge #ddd;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+  background: url(../images/system/view_light.png) no-repeat;
+  background-size: cover;
+}
+#viewNewsAdmin:active{
+  box-shadow: 1px 1px 5px rgba(0,0,0,0);
+}

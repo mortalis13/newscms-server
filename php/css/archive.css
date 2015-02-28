@@ -1,0 +1,65 @@
+
+/* archive.php (user)*/
+
+.tNewsArchiveUser{
+  width: 75%;
+}
+.tNewsArchiveUser{
+  padding-top:10px;
+}
+.tNewsArchiveUser th{
+  padding:5px 0px;
+  border-right:1px solid black;
+  border-bottom:1px solid black;
+  background:#ddd;
+  cursor:default;
+}
+.tNewsArchiveUser th:first-child{
+  border-top-left-radius: 10px;
+}
+.tNewsArchiveUser th:last-child{
+  border-top-right-radius: 10px;
+  border-right:0;
+}
+.tNewsArchiveUser th:hover{
+  background: #eee;
+}
+
+.tNewsArchiveUser td{
+  padding:5px 15px;
+  border-bottom:1px solid black;
+  border-right:1px solid black;
+}
+.tNewsArchiveUser td:last-child{
+  border-right:0;
+}
+.tNewsArchiveUser tr:last-child td{
+  border-bottom:0;
+}
+.tNewsArchiveUser thead tr:hover{
+  background:none;
+}
+.tNewsArchiveUser tr:hover{
+  background: #eee;
+  cursor:pointer;
+}
+.tNewsArchiveUser a{
+  font-size:1.05em;
+  text-shadow: rgba(0, 0, 0, .4) 1px 1px .5em ;
+}
+
+.tNewsArchiveUser #date{
+  width:20%;
+}
+.tNewsArchiveUser #user{
+  width:15%;
+}
+
+#pubDateArchive{
+  font-size: .8em;
+}
+#noNewsDivArchive{
+  padding:28px 0px;
+  font-size: 1.2em;
+  font-weight: bold;
+}

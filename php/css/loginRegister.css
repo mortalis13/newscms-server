@@ -1,0 +1,97 @@
+
+/* loginForm.php, regForm.php */
+
+/* forms */
+
+#loginForm,#regForm{
+  width:45%;
+}
+.inputForms .redirectBox{
+  margin-top: -15px;
+}
+#loginForm .form-control,
+#regForm .form-control{
+  width:50%;
+}
+
+/* error messages */
+#loginErrorMessage {
+  width:70%;
+  padding:5px 5px;
+  font-size:.9em;
+}
+#loginErrorMessage{
+  background: -moz-linear-gradient(top, #fff 0%, #ffc3c3 30%, #ff9f9f 50%, #ffc3c3 70%, #fff 100%);
+}
+#loginErrorMessage:hover{
+  background: -moz-linear-gradient(top, #fff 0%, #ffb4b4 30%, #ff8080 50%, #ffb4b4 70%, #fff 100%);
+}
+#loginErrorDiv{
+  height: 50px;
+}
+
+#regErrorMessage {
+  width:70%;
+  padding:7px 15px;
+}
+#regErrorMessage{
+  background: -moz-linear-gradient(top, #fff 0%, #ffc3c3 30%, #ff9f9f 50%, #ffc3c3 70%, #fff 100%);
+}
+#regErrorMessage:hover{
+  background: -moz-linear-gradient(top, #fff 0%, #ffb4b4 30%, #ff8080 50%, #ffb4b4 70%, #fff 100%);
+}
+#regErrorDiv{
+  height: 50px;
+}
+
+#loginErrorMessage,#regErrorMessage{
+  cursor:default;
+  font-weight: bold;
+  text-align:center;
+  border-radius: 10px;
+  box-shadow: 2px 1px 8px rgba(0,0,0,0.15);
+}
+
+/* additional links */
+.regLoginLink,.regLoginLink:active{
+  color:black;
+  font-size:0.8em;
+}
+#redirectLink{
+  color: #da7812;
+  font-weight: bold;
+}
+#redirectLink:hover{
+  text-decoration: underline;
+}
+
+/* labels */
+.loginLabel{
+  width: 27%;
+}
+.regLabel{
+  width: 38.5%;
+}
+
+/* reg info */
+.regInfo{
+  position:relative;
+}
+.regInfo .infoContainer{
+  display: none;
+
+  position: absolute;
+  top:0;
+  left:0;
+  
+  width:270px;
+  height: 300px;
+  padding:10px;
+  margin-top:10px;
+
+  font-weight: bold;
+
+  border-radius: 5px;
+  background: rgab(220,220,220,0.8);
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}

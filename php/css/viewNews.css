@@ -1,0 +1,44 @@
+
+/* viewNews.php (user) */
+
+#viewNewsContainer{
+  border-bottom:1px solid #ccc;
+  padding-bottom:10px;
+}
+#viewNewsContainer #title{
+  margin-top:0px;
+  margin-bottom:15px;
+  margin-left:20px;
+  line-height: 1.5em;
+}
+#viewNewsContainer #image{
+  max-height:400px;
+  max-width:400px;
+  float:right;
+  padding:10px 20px;
+}
+#viewNewsContainer #content{
+  margin:0px 20px 20px 20px;
+  text-align: justify;
+}
+
+#previewSpan{
+  font-size:.7em;
+  font-weight: normal;
+}
+
+#editNewsLink{
+  font-weight: bold;
+}
+
+/* info */
+.info{
+  margin:20px 0 0 20px;
+}
+.info a:hover{
+  text-decoration: underline;
+}
+#aNewsPubDate{
+  font-size:1.05em;
+  font-weight: bold;
+}
